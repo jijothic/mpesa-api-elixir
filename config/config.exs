@@ -12,8 +12,8 @@ config :mpesa,
 # Configures the endpoint
 config :mpesa, MpesaWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "A0+8TTXrtTsT0c8gykP4JsTMJ5K0DCo9mm0gQjQHZl8MiSTz8aKeC3omtQ9nH/xJ",
-  render_errors: [view: MpesaWeb.ErrorView, accepts: ~w(html json)],
+  secret_key_base: "pV6u9Ki0Re2ceSsYXVV5okgmuMa7u4KVVP/s75Pu1IS4mub+EQjy/sC8ecr9F/kj",
+  render_errors: [view: MpesaWeb.ErrorView, accepts: ~w(json)],
   pubsub: [name: Mpesa.PubSub,
            adapter: Phoenix.PubSub.PG2]
 
